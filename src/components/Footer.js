@@ -14,7 +14,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/ahmad-bilal-amjad-50a55418a"
+                href="https://www.linkedin.com/in/ahmadbilalamjad"
                 target="blank"
               >
                 <i className="fa fa-linkedin" />

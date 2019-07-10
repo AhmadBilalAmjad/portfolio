@@ -32,6 +32,29 @@ export default function Portfolio() {
             </div>
             {/* End E-commerce Site */}
 
+            {/* Start Fish Store */}
+            <div className="columns portfolio-item">
+              <div className="item-wrap">
+                <a href="#modal-04" title>
+                  <img
+                    alt=""
+                    src="images/portfolio/fishStore.png"
+                    id="imageBalance"
+                  />
+                  <div className="overlay">
+                    <div className="portfolio-item-meta">
+                      <h5>Fish Store</h5>
+                      <p>Illustrration</p>
+                    </div>
+                  </div>
+                  <div className="link-icon">
+                    <i className="icon-plus" />
+                  </div>
+                </a>
+              </div>
+            </div>
+            {/* End Fish Store */}
+
             {/* Start Photography Site */}
             <div className="columns portfolio-item">
               <div className="item-wrap">
@@ -50,29 +73,6 @@ export default function Portfolio() {
               </div>
             </div>
             {/* End Photography Site */}
-
-            {/* Start Parallax Langing Page */}
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-04" title>
-                  <img
-                    alt=""
-                    src="images/portfolio/OnePageTheme.png"
-                    id="imageBalance"
-                  />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>One Page Theme Site</h5>
-                      <p>Illustrration</p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* End Parallax Langing Page */}
 
             {/* Start Grid Landing Page */}
             <div className="columns portfolio-item">
@@ -113,7 +113,7 @@ export default function Portfolio() {
             <h4>E-Commerce Books Selling Site</h4>
             <p>
               <span id="textBolder">
-                This is Book Selling Site Made up wtih
+                This is a Book Selling Site build with
                 PHP,Laravel,MySql,JQuery,HTML5,CSS3,BOOTSTRAP4*.
               </span>
             </p>
@@ -123,7 +123,10 @@ export default function Portfolio() {
             </span>
           </div>
           <div className="link-box">
-            <a href="#">
+            <a
+              href="https://github.com/AhmadBilalAmjad/Books-selling-site"
+              target="blank"
+            >
               <i className="fa fa-github" /> Details
             </a>
             <a className="popup-modal-dismiss" href>
@@ -145,8 +148,8 @@ export default function Portfolio() {
             <h4>Photography Site</h4>
             <p>
               <span id="textBolder">
-                This Photography Site is made up with HTML5,CSS3,Jquery and it
-                is totally responsive.
+                This Photography Site is build with HTML5,CSS3,Jquery and it is
+                totally responsive.
               </span>
             </p>
             <span className="categories">
@@ -155,7 +158,7 @@ export default function Portfolio() {
             </span>
           </div>
           <div className="link-box">
-            <a href="#">
+            <a href="#c">
               <i className="fa fa-github" /> Details
             </a>
             <a className="popup-modal-dismiss" href>
@@ -177,7 +180,7 @@ export default function Portfolio() {
             <h4>CSS3 Grid Site</h4>
             <p>
               <span id="textBolder">
-                This is a one page site totally made up with HTML5,CSS3 Grid
+                This is a one page site totally build with HTML5,CSS3 Grid
                 System and it is totally responsive.
               </span>
             </p>
@@ -187,7 +190,7 @@ export default function Portfolio() {
             </span>
           </div>
           <div className="link-box">
-            <a href="#">
+            <a href="#c">
               <i className="fa fa-github" /> Details
             </a>
             <a className="popup-modal-dismiss" href>
@@ -202,15 +205,15 @@ export default function Portfolio() {
         <div id="modal-04" className="popup-modal mfp-hide">
           <img
             className="scale-with-grid"
-            src="images/portfolio/modals/M-OnePageTheme.png"
+            src="images/portfolio/modals/M-fishStore.png"
             alt=""
           />
           <div className="description-box">
-            <h4>One Page Theme Site</h4>
+            <h4>Fish Store</h4>
             <p>
               <span id="textBolder">
-                This is a One Page Theme for a social type app made with
-                HTML5,CSS3,BOOTSTRAP4* and its totally responsive.
+                This is a Fish Store Website build with React JS, React Router
+                and Firebase.
               </span>
             </p>
             <span className="categories">
@@ -219,7 +222,10 @@ export default function Portfolio() {
             </span>
           </div>
           <div className="link-box">
-            <a href="#">
+            <a
+              href="https://github.com/AhmadBilalAmjad/Fishes-Store"
+              target="blank"
+            >
               <i className="fa fa-github" /> Details
             </a>
             <a className="popup-modal-dismiss" href>
