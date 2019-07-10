@@ -123,7 +123,7 @@ export default function Portfolio() {
             </span>
           </div>
           <div className="link-box">
-            <a href="http://www.behance.net">
+            <a href="#">
               <i className="fa fa-github" /> Details
             </a>
             <a className="popup-modal-dismiss" href>
@@ -155,7 +155,7 @@ export default function Portfolio() {
             </span>
           </div>
           <div className="link-box">
-            <a href="http://www.behance.net">
+            <a href="#">
               <i className="fa fa-github" /> Details
             </a>
             <a className="popup-modal-dismiss" href>
@@ -187,7 +187,7 @@ export default function Portfolio() {
             </span>
           </div>
           <div className="link-box">
-            <a href="http://www.behance.net">
+            <a href="#">
               <i className="fa fa-github" /> Details
             </a>
             <a className="popup-modal-dismiss" href>
@@ -219,7 +219,7 @@ export default function Portfolio() {
             </span>
           </div>
           <div className="link-box">
-            <a href="http://www.behance.net">
+            <a href="#">
               <i className="fa fa-github" /> Details
             </a>
             <a className="popup-modal-dismiss" href>
