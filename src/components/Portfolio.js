@@ -55,6 +55,29 @@ export default function Portfolio() {
             </div>
             {/* End Fish Store */}
 
+            {/* Start Grid Landing Page */}
+            <div className="columns portfolio-item">
+              <div className="item-wrap">
+                <a href="#modal-03" title>
+                  <img
+                    alt=""
+                    src="images/portfolio/FindGithubUsers.png"
+                    id="imageBalance"
+                  />
+                  <div className="overlay">
+                    <div className="portfolio-item-meta">
+                      <h5>Github Users Finder</h5>
+                      <p>Illustrration</p>
+                    </div>
+                  </div>
+                  <div className="link-icon">
+                    <i className="icon-plus" />
+                  </div>
+                </a>
+              </div>
+            </div>
+            {/* End Grid Landing Page  */}
+
             {/* Start Photography Site */}
             <div className="columns portfolio-item">
               <div className="item-wrap">
@@ -73,29 +96,6 @@ export default function Portfolio() {
               </div>
             </div>
             {/* End Photography Site */}
-
-            {/* Start Grid Landing Page */}
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-03" title>
-                  <img
-                    alt=""
-                    src="images/portfolio/GridSite.png"
-                    id="imageBalance"
-                  />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>Grid Site</h5>
-                      <p>Illustrration</p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* End Grid Landing Page  */}
           </div>
           {/* portfolio-wrapper end */}
         </div>
@@ -158,7 +158,7 @@ export default function Portfolio() {
             </span>
           </div>
           <div className="link-box">
-            <a href="#c">
+            <a href="#c" target="blank">
               <i className="fa fa-github" /> Details
             </a>
             <a className="popup-modal-dismiss" href>
@@ -173,15 +173,14 @@ export default function Portfolio() {
         <div id="modal-03" className="popup-modal mfp-hide">
           <img
             className="scale-with-grid"
-            src="images/portfolio/modals/M-GridSite.png"
+            src="images/portfolio/modals/M-FindGithubUsers.png"
             alt=""
           />
           <div className="description-box">
-            <h4>CSS3 Grid Site</h4>
+            <h4>Github Users Finder</h4>
             <p>
               <span id="textBolder">
-                This is a one page site totally build with HTML5,CSS3 Grid
-                System and it is totally responsive.
+                This project is build with HTML5,CSS3,JavaScript and Github API.
               </span>
             </p>
             <span className="categories">
@@ -190,7 +189,10 @@ export default function Portfolio() {
             </span>
           </div>
           <div className="link-box">
-            <a href="#c">
+            <a
+              href="https://github.com/AhmadBilalAmjad/github-finder"
+              target="blank"
+            >
               <i className="fa fa-github" /> Details
             </a>
             <a className="popup-modal-dismiss" href>
